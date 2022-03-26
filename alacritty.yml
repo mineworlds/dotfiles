@@ -1,0 +1,36 @@
+#Window
+window:
+  padding:
+    x: 5
+    y: 5
+  class:
+    instance: Alacritty
+    general: Alacritty
+
+scrolling:
+  history: 10000
+  multiplier: 3
+
+window_opacity: 0.5
+# Font configuration
+font:
+  family: Hack Nerd Font Mono
+
+colors:
+  primary:
+    background: "#11121D"
+    foreground: "#DCDFE4"
+
+cursor:
+  style:
+    shape: Block
+    blinking: Off
+    blink-interval: 250
+
+shell:
+  program: wsl.exe -d Ubuntu-20.04
+  args:
+    - --cd ~
+
+window:
+  opacity: 0.9
